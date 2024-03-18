@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_fruit_icon">Ikon Dino</string>
+    <string name="info_fruit_name">Nama Dino</string>
+    <string name="info_fruit_desc">Deskripsi</string>
+    <string name="info_fruit_characteristic">Karakteristik</string>
+    <string name="info_fruit_habitat">Asal</string>
+    <string name="myname">Rifqi Haikal Chairiansyah</string>
+    <string name="myemail">r.haikal1610@gmail.com</string>
+
+    <string-array name="fruits_name">
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Stegosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Ceratopsidae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithomimidae</item>
+        <item>Pterosauria</item>
+    </string-array>
+
+    <string-array name="fruits_icon">
+        <item>@drawable/logoc1</item>
+        <item>@drawable/logoc2</item>
+        <item>@drawable/logoc3</item>
+        <item>@drawable/logoc4</item>
+        <item>@drawable/logoc5</item>
+        <item>@drawable/logoc6</item>
+        <item>@drawable/logoc7</item>
+        <item>@drawable/logoc8</item>
+    </string-array>
+
+    <string-array name="fruits_description">
+        <item>Brighton and Hove Albion, founded in 1901, were the next team to acquire the suffix. It is thought that the Seagulls chose the name in reference to the chalk cliffs that are spread throughout the South East Coast.
+        There are also suggestions that as many businesses used the name Albion before the club was founded, the founders decided to promote these local businesses by adding it to the team name</item>
+        <item>Avokad, atau sering disebut alpukat, adalah buah
+lezat dengan daging lembut dan kaya nutrisi. Buah ini mengandung
+sejumlah sehat lemak tak jenuh ganda, serat, vitamin K, vitamin E,
+vitamin C, dan beberapa mineral penting. Avokad sering digunakan
+dalam berbagai hidangan, seperti salad, smoothie, atau sebagai
+lapisan pada roti. Selain rasanya yang lezat, avokad juga dikenal
+memberikan manfaat bagi kesehatan kulit, mata, dan jantung.</item>
+        <item>Pisang adalah buah yang lezat dan praktis, dengan
+kulit kuning dan daging yang manis. Kaya akan kalium, vitamin B6,
+dan serat, pisang merupakan camilan sehat yang mudah dibawa dan
+dimakan. Pisang juga dapat digunakan dalam berbagai hidangan,
+seperti smoothie, roti, atau kue. Selain itu, kandungan nutrisinya
+mendukung kesehatan otot, sistem saraf, dan menjaga keseimbangan
+cairan dalam tubuh.</item>
+        <item>Kelapa adalah buah tropis yang terkenal dengan
+rasanya yang segar dan kegunaannya yang serbaguna. Buah ini
+memiliki cangkang keras berwarna cokelat, dan di dalamnya terdapat
+daging putih yang juicy serta air kelapa. Kelapa digunakan dalam
+berbagai aplikasi kuliner, termasuk memasak, membaking, dan
+membuat minuman. Kandungan nutrisinya mencakup lemak sehat,
+elektrolit, dan serat. Kelapa tidak hanya lezat tetapi juga
+memberikan manfaat kesehatan potensial, seperti mendukung hidrasi,
+membantu pencernaan, dan memberikan kontribusi pada pola makan
+yang seimbang.</item>
+        <item>Jambu biji adalah buah tropis dengan rasa dan aroma
+khas. Umumnya memiliki kulit berwarna hijau dan daging yang manis,
+berwarna merah muda atau putih dengan biji kecil di bagian
+tengahnya. Jambu biji kaya akan vitamin C, serat, dan antioksidan.
+Buah ini serbaguna dan dapat dinikmati segar, dijadikan jus, atau
+digunakan dalam berbagai kreasi kuliner seperti selai, kudapan,
+dan salad. Selain rasanya yang lezat, jambu biji dikenal dengan
+potensi manfaat kesehatannya, termasuk mendukung sistem kekebalan
+tubuh, meningkatkan pencernaan, dan menjaga kesehatan
+kulit.</item>
+        <item>Mangga adalah buah tropis yang dihargai karena
+dagingnya yang manis dan juicy. Buah ini memiliki kulit yang halus
+dan berwarna-warni, dengan daging yang bervariasi dari kuning
+hingga oranye. Mangga kaya akan vitamin, terutama vitamin C dan
+vitamin A, serta mengandung antioksidan dan serat pangan. Buah
+serbaguna ini dapat dinikmati segar, dihaluskan menjadi smoothie,
+ditambahkan ke dalam salad, atau digunakan dalam hidangan manis
+dan gurih. Selain rasanya yang lezat, mangga dikenal dengan
+potensi manfaat kesehatan, termasuk mendukung kesehatan sistem
+kekebalan tubuh, menjaga kesehatan mata, dan membantu
+pencernaan.</item>
+        <item>Melon adalah buah yang menyegarkan dan mengandung
+banyak air. Umumnya memiliki kulit luar yang halus dan daging yang
+manis serta juicy di dalamnya. Melon hadir dalam berbagai
+varietas, seperti cantaloupe dan honeydew, masing-masing dengan
+rasa dan warna yang unik. Kaya akan vitamin A dan C, serta
+potassium, melon menyajikan pilihan buah yang manis dan bergizi
+untuk camilan, hidangan pencuci mulut, atau salad buah. Dengan
+rasa yang ringan dan lezat, melon sering dinikmati dalam keadaan
+dingin pada hari yang panas dan dikenal karena kemampuannya untuk
+membantu menjaga kecukupan cairan tubuh secara keseluruhan.</item>
+        <item>Jeruk adalah buah citrus yang dikenal karena warna
+cerahnya dan rasa citrus yang khas. Dengan kulit yang tebal dan
+dapat dikupas, jeruk memiliki daging yang juicy dan bersegmen di
+dalamnya. Kaya akan vitamin C, jeruk dihargai karena rasanya yang
+menyegarkan dan manfaat kesehatannya. Dikonsumsi segar, dijadikan
+jus, atau digunakan dalam berbagai aplikasi kuliner, jeruk
+memberikan sentuhan rasa citrus yang segar dan berkontribusi pada
+pola makan yang sehat. Selain itu, buah ini dikenal karena
+sifatnya yang meningkatkan kekebalan tubuh dan mendukung
+kesejahteraan secara keseluruhan.</item>
+        <item>Nanas adalah buah tropis dengan rasa manis dan
+sedikit asam yang khas. Buah ini memiliki kulit luar yang keras
+dan berduri, serta daging kuning yang juicy di dalamnya. Nanas
+kaya akan vitamin C, mangan, dan antioksidan. Buah tropis ini bisa
+dinikmati segar, dijadikan jus, atau digunakan dalam berbagai
+kreasi kuliner seperti salad buah, smoothie, dan hidangan penutup.
+Selain rasanya yang lezat, nanas dikenal dengan potensi manfaat
+kesehatannya, termasuk mendukung sistem kekebalan tubuh dan sifat
+antiinflamasi.</item>
+        <item>Stroberi adalah buah kecil berwarna merah cerah
+dengan rasa manis dan segar. Buah ini memiliki permukaan yang
+berbintik-bintik dan sejumlah biji kecil di permukaannya. Stroberi
+kaya akan vitamin C, serat, dan antioksidan. Biasanya dimakan
+segar, dijadikan tambahan dalam salad buah, atau digunakan sebagai
+bahan dalam pembuatan jus, kue, atau selai. Selain rasanya yang
+lezat, stroberi juga dikenal dengan manfaat kesehatannya, seperti
+mendukung sistem kekebalan tubuh dan meningkatkan kesehatan
+jantung.</item>
+    </string-array>
+
+    <string-array name="fruits_characteristic">
+        <item>Aku adalah pemain albion</item>
+        <item>Avokad Memiliki daun hijau gelap dan hijau muda,
+serta bunga kecil dan hijau.</item>
+        <item>Pisang Daun-daun besar dan panjang yang tersusun
+dalam tumpukan yang disebut "jantung."</item>
+        <item>Kelapa Daun kelapa berbentuk pinnatifid dengan
+pangkal daun yang mengelilingi batang.</item>
+        <item>Jambu Biji Daun jambu biji bersifat meruncing dan
+bunganya berwarna putih atau merah.</item>
+        <item>Mangga Daun-daunnya panjang dan ramping dengan ujung
+yang meruncing, bunganya kecil dan berwarna-warni.</item>
+        <item>Melon Tanaman melon memiliki daun lobus dengan bunga
+kuning atau oranye.</item>
+        <item>Jeruk Daun-daunnya biasanya bergaris dan bunganya
+berwarna putih atau merah muda.</item>
+        <item>Nanas Daunnya panjang dan runcing, dan bunganya
+berwarna ungu atau merah muda.</item>
+        <item>Stroberi Tanaman stroberi memiliki daun bertangkai
+dengan bunga kecil berwarna putih.</item>
+    </string-array>
+
+    <string-array name="fruits_habitat">
+        <item>Aku berasal dari albion city</item>
+        <item>Avokad Asli dari Meksiko dan Amerika Tengah, tumbuh
+di daerah subtropis atau tropis dengan suhu hangat hingga
+panas.</item>
+        <item>Pisang Asli dari Asia Tenggara, tumbuh di daerah
+tropis dengan suhu tinggi, kelembaban, dan curah hujan yang
+cukup.</item>
+        <item>Kelapa Tumbuh di wilayah tropis dan subtropis,
+terutama di daerah pesisir dengan iklim tropis atau
+subtropis.</item>
+        <item>Jambu Biji Asli dari Amerika Tropis, tumbuh di
+daerah tropis dan subtropis dengan iklim yang lembap.</item>
+        <item>Mangga Asli dari Asia Selatan dan Tenggara, tumbuh
+di daerah tropis dan subtropis, dengan suhu hangat hingga
+panas.</item>
+        <item>Melon Asli dari Timur Tengah dan Asia Tenggara,
+tumbuh di berbagai iklim, tetapi biasanya ditanam di musim panas
+dengan suhu yang hangat hingga panas.</item>
+        <item>Jeruk Asli dari Asia Timur, tumbuh di daerah tropis
+dan subtropis dengan iklim yang hangat hingga panas.</item>
+        <item>Nanas Asli dari Amerika Selatan, tumbuh di daerah
+tropis dan subtropis, dengan suhu hangat hingga panas.</item>
+        <item>Stroberi Tumbuh di belahan utara dan selatan dunia,
+di daerah beriklim sedang hingga dingin, di tempat yang
+mendapatkan sinar matahari yang cukup.</item>
+    </string-array>
+
+
+
+</resources>
