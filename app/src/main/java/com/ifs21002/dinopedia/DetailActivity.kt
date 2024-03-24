@@ -11,39 +11,45 @@ import com.ifs21002.dinopedia.databinding.ActivityDetailBinding
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
-    private var fruit: Fruit? = null
+    private var dino: Unit? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        fruit = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra(EXTRA_FRUIT, Fruit::class.java)
+        dino = if (Build.VERSION.SDK_INT >= 33) {
+            intent.getParcelableExtra(EXTRA_DINO, Unit::class.java)
         } else {
             @Suppress("DEPRECATION")
-            intent.getParcelableExtra(EXTRA_FRUIT)
+            intent.getParcelableExtra(EXTRA_DINO)
         }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        if (fruit != null) {
-            supportActionBar?.title = "About ${fruit!!.name}"
-            loadData(fruit!!)
+        if (dino != null) {
+            supportActionBar?.title = "About ${dino!!.name}"
+            loadData(dino!!)
         } else {
             finish()
         }
     }
 
-    private fun loadData(fruit: Fruit) {
-        binding.ivDetailIcon.setImageResource(fruit.icon)
-        binding.tvDetailName.text = fruit.name
-        binding.tvDetailDescription.text = fruit.description
-        binding.tvDetailCharacteristic.text = fruit.characteristic
-        binding.tvDetailHabitat.text = fruit.habitat
+    private fun loadData(dino: Unit) {
+        binding.ivDetailIcon.setImageResource(dino.icon)
+        binding.tvDetailName.text = dino.name
+        binding.tvDetailDescription.text = dino.description
+        binding.tvDetailCharacteristic.text = dino.characteristic
+        binding.tvDetailHabitat.text = dino.habitat
+        binding.tvDetailPanjang.text = dino.panjang
+        binding.tvDetailTinggi.text = dino.tinggi
+        binding.tvDetailBobot.text = dino.bobot
+        binding.tvDetailKelompok.text = dino.kelompok
+        binding.tvDetailMakanan.text = dino.makanan
+        binding.tvDetailKelemahan.text = dino.kelemahan
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_detail, menu)
+        menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
@@ -54,8 +60,8 @@ class DetailActivity : AppCompatActivity() {
             }
             R.id.menu_about -> {
                 val shareIntent = Intent(Intent.ACTION_SEND)
-                shareIntent.setType("text/plain")
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "${fruit!!.name}, ${fruit!!.description}")
+                shareIntent.type = "text/plain"
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "${dino!!.name}, ${dino!!.description}")
                 startActivity(Intent.createChooser(shareIntent, "Share Via"))
             }
         }
@@ -63,7 +69,7 @@ class DetailActivity : AppCompatActivity() {
     }
 
     companion object {
-        const val EXTRA_FRUIT = "extra_fruit"
+        const val EXTRA_DINO = "extra_dino"
     }
 
 }

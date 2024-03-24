@@ -1,14 +1,20 @@
 <resources>
     <string name="app_name">Dino Pedia</string>
-    <string name="info_fruit_icon">Ikon Dino</string>
-    <string name="info_fruit_name">Nama Dino</string>
-    <string name="info_fruit_desc">Deskripsi</string>
-    <string name="info_fruit_characteristic">Karakteristik</string>
-    <string name="info_fruit_habitat">Asal</string>
+    <string name="info_dino_icon">Ikon Dino</string>
+    <string name="info_dino_name">Nama Dinosaurus</string>
+    <string name="info_dino_desc">Deskripsi</string>
+    <string name="info_dino_characteristic">Karakteristik</string>
+    <string name="info_dino_habitat">Asal</string>
+    <string name="info_dino_kelompok">Family</string>
+    <string name="info_dino_makanan">Tipe Makanan</string>
+    <string name="info_dino_panjang">Panjang</string>
+    <string name="info_dino_tinggi">Tinggi</string>
+    <string name="info_dino_bobot">Bobot</string>
+    <string name="info_dino_kelemahan">Kelemahan</string>
     <string name="myname">Rifqi Haikal Chairiansyah</string>
     <string name="myemail">r.haikal1610@gmail.com</string>
 
-    <string-array name="fruits_name">
+    <string-array name="dinos_name">
         <item>Theropoda</item>
         <item>Sauropoda</item>
         <item>Stegosauridae</item>
@@ -19,155 +25,872 @@
         <item>Pterosauria</item>
     </string-array>
 
-    <string-array name="fruits_icon">
-        <item>@drawable/logoc1</item>
-        <item>@drawable/logoc2</item>
-        <item>@drawable/logoc3</item>
-        <item>@drawable/logoc4</item>
-        <item>@drawable/logoc5</item>
-        <item>@drawable/logoc6</item>
-        <item>@drawable/logoc7</item>
-        <item>@drawable/logoc8</item>
+    <string-array name="dinos_icon">
+        <item>@drawable/theo</item>
+        <item>@drawable/sauro</item>
+        <item>@drawable/stego</item>
+        <item>@drawable/hadro</item>
+        <item>@drawable/cera</item>
+        <item>@drawable/anky</item>
+        <item>@drawable/orni</item>
+        <item>@drawable/ptero</item>
     </string-array>
 
-    <string-array name="fruits_description">
-        <item>Brighton and Hove Albion, founded in 1901, were the next team to acquire the suffix. It is thought that the Seagulls chose the name in reference to the chalk cliffs that are spread throughout the South East Coast.
-        There are also suggestions that as many businesses used the name Albion before the club was founded, the founders decided to promote these local businesses by adding it to the team name</item>
-        <item>Avokad, atau sering disebut alpukat, adalah buah
-lezat dengan daging lembut dan kaya nutrisi. Buah ini mengandung
-sejumlah sehat lemak tak jenuh ganda, serat, vitamin K, vitamin E,
-vitamin C, dan beberapa mineral penting. Avokad sering digunakan
-dalam berbagai hidangan, seperti salad, smoothie, atau sebagai
-lapisan pada roti. Selain rasanya yang lezat, avokad juga dikenal
-memberikan manfaat bagi kesehatan kulit, mata, dan jantung.</item>
-        <item>Pisang adalah buah yang lezat dan praktis, dengan
-kulit kuning dan daging yang manis. Kaya akan kalium, vitamin B6,
-dan serat, pisang merupakan camilan sehat yang mudah dibawa dan
-dimakan. Pisang juga dapat digunakan dalam berbagai hidangan,
-seperti smoothie, roti, atau kue. Selain itu, kandungan nutrisinya
-mendukung kesehatan otot, sistem saraf, dan menjaga keseimbangan
-cairan dalam tubuh.</item>
-        <item>Kelapa adalah buah tropis yang terkenal dengan
-rasanya yang segar dan kegunaannya yang serbaguna. Buah ini
-memiliki cangkang keras berwarna cokelat, dan di dalamnya terdapat
-daging putih yang juicy serta air kelapa. Kelapa digunakan dalam
-berbagai aplikasi kuliner, termasuk memasak, membaking, dan
-membuat minuman. Kandungan nutrisinya mencakup lemak sehat,
-elektrolit, dan serat. Kelapa tidak hanya lezat tetapi juga
-memberikan manfaat kesehatan potensial, seperti mendukung hidrasi,
-membantu pencernaan, dan memberikan kontribusi pada pola makan
-yang seimbang.</item>
-        <item>Jambu biji adalah buah tropis dengan rasa dan aroma
-khas. Umumnya memiliki kulit berwarna hijau dan daging yang manis,
-berwarna merah muda atau putih dengan biji kecil di bagian
-tengahnya. Jambu biji kaya akan vitamin C, serat, dan antioksidan.
-Buah ini serbaguna dan dapat dinikmati segar, dijadikan jus, atau
-digunakan dalam berbagai kreasi kuliner seperti selai, kudapan,
-dan salad. Selain rasanya yang lezat, jambu biji dikenal dengan
-potensi manfaat kesehatannya, termasuk mendukung sistem kekebalan
-tubuh, meningkatkan pencernaan, dan menjaga kesehatan
-kulit.</item>
-        <item>Mangga adalah buah tropis yang dihargai karena
-dagingnya yang manis dan juicy. Buah ini memiliki kulit yang halus
-dan berwarna-warni, dengan daging yang bervariasi dari kuning
-hingga oranye. Mangga kaya akan vitamin, terutama vitamin C dan
-vitamin A, serta mengandung antioksidan dan serat pangan. Buah
-serbaguna ini dapat dinikmati segar, dihaluskan menjadi smoothie,
-ditambahkan ke dalam salad, atau digunakan dalam hidangan manis
-dan gurih. Selain rasanya yang lezat, mangga dikenal dengan
-potensi manfaat kesehatan, termasuk mendukung kesehatan sistem
-kekebalan tubuh, menjaga kesehatan mata, dan membantu
-pencernaan.</item>
-        <item>Melon adalah buah yang menyegarkan dan mengandung
-banyak air. Umumnya memiliki kulit luar yang halus dan daging yang
-manis serta juicy di dalamnya. Melon hadir dalam berbagai
-varietas, seperti cantaloupe dan honeydew, masing-masing dengan
-rasa dan warna yang unik. Kaya akan vitamin A dan C, serta
-potassium, melon menyajikan pilihan buah yang manis dan bergizi
-untuk camilan, hidangan pencuci mulut, atau salad buah. Dengan
-rasa yang ringan dan lezat, melon sering dinikmati dalam keadaan
-dingin pada hari yang panas dan dikenal karena kemampuannya untuk
-membantu menjaga kecukupan cairan tubuh secara keseluruhan.</item>
-        <item>Jeruk adalah buah citrus yang dikenal karena warna
-cerahnya dan rasa citrus yang khas. Dengan kulit yang tebal dan
-dapat dikupas, jeruk memiliki daging yang juicy dan bersegmen di
-dalamnya. Kaya akan vitamin C, jeruk dihargai karena rasanya yang
-menyegarkan dan manfaat kesehatannya. Dikonsumsi segar, dijadikan
-jus, atau digunakan dalam berbagai aplikasi kuliner, jeruk
-memberikan sentuhan rasa citrus yang segar dan berkontribusi pada
-pola makan yang sehat. Selain itu, buah ini dikenal karena
-sifatnya yang meningkatkan kekebalan tubuh dan mendukung
-kesejahteraan secara keseluruhan.</item>
-        <item>Nanas adalah buah tropis dengan rasa manis dan
-sedikit asam yang khas. Buah ini memiliki kulit luar yang keras
-dan berduri, serta daging kuning yang juicy di dalamnya. Nanas
-kaya akan vitamin C, mangan, dan antioksidan. Buah tropis ini bisa
-dinikmati segar, dijadikan jus, atau digunakan dalam berbagai
-kreasi kuliner seperti salad buah, smoothie, dan hidangan penutup.
-Selain rasanya yang lezat, nanas dikenal dengan potensi manfaat
-kesehatannya, termasuk mendukung sistem kekebalan tubuh dan sifat
-antiinflamasi.</item>
-        <item>Stroberi adalah buah kecil berwarna merah cerah
-dengan rasa manis dan segar. Buah ini memiliki permukaan yang
-berbintik-bintik dan sejumlah biji kecil di permukaannya. Stroberi
-kaya akan vitamin C, serat, dan antioksidan. Biasanya dimakan
-segar, dijadikan tambahan dalam salad buah, atau digunakan sebagai
-bahan dalam pembuatan jus, kue, atau selai. Selain rasanya yang
-lezat, stroberi juga dikenal dengan manfaat kesehatannya, seperti
-mendukung sistem kekebalan tubuh dan meningkatkan kesehatan
-jantung.</item>
+    <string-array name="dinos_description">
+        <item>Keluarga ini mencakup dinosaurus pemakan daging seperti Tyrannosaurus rex dan Velociraptor</item>
+        <item>Keluarga ini terdiri dari dinosaurus raksasa berleher panjang seperti Brachiosaurus dan Diplodocus.</item>
+        <item>Keluarga ini dikenal dengan ciri khas punggung berderetkan piring-piring tulang, contohnya adalah Stegosaurus.</item>
+        <item>Keluarga ini mencakup dinosaurus bertubuh besar dengan paruh seperti bebek, seperti Parasaurolophus dan Edmontosaurus.</item>
+        <item>Keluarga ini terdiri dari dinosaurus dengan tanduk dan lempengan-lempegan pada kepala, seperti Triceratops</item>
+        <item>Keluarga ini memiliki perlindungan tubuh yang kuat dan cenderung berlapis, contohnya adalah Ankylosaurus.</item>
+        <item>Keluarga ini terdiri dari dinosaurus berwujud mirip burung dan memiliki kaki panjang, seperti Ornithomimus</item>
+        <item>Meskipun bukan dinosaurus sejati, keluarga ini mencakup reptil terbang seperti Pteranodon dan Quetzalcoatlus yang hidup pada masa yang sama dengan dinosaurus.</item>
     </string-array>
 
-    <string-array name="fruits_characteristic">
-        <item>Aku adalah pemain albion</item>
-        <item>Avokad Memiliki daun hijau gelap dan hijau muda,
-serta bunga kecil dan hijau.</item>
-        <item>Pisang Daun-daun besar dan panjang yang tersusun
-dalam tumpukan yang disebut "jantung."</item>
-        <item>Kelapa Daun kelapa berbentuk pinnatifid dengan
-pangkal daun yang mengelilingi batang.</item>
-        <item>Jambu Biji Daun jambu biji bersifat meruncing dan
-bunganya berwarna putih atau merah.</item>
-        <item>Mangga Daun-daunnya panjang dan ramping dengan ujung
-yang meruncing, bunganya kecil dan berwarna-warni.</item>
-        <item>Melon Tanaman melon memiliki daun lobus dengan bunga
-kuning atau oranye.</item>
-        <item>Jeruk Daun-daunnya biasanya bergaris dan bunganya
-berwarna putih atau merah muda.</item>
-        <item>Nanas Daunnya panjang dan runcing, dan bunganya
-berwarna ungu atau merah muda.</item>
-        <item>Stroberi Tanaman stroberi memiliki daun bertangkai
-dengan bunga kecil berwarna putih.</item>
+    <string-array name="dinos_characteristic">
+        <item>Dinosaurs pemakan daging dengan cakar tajam, gigi runcing, dan postur tubuh yang ramping untuk berburu dan menyerang mangsa.</item>
+        <item>Dinosaurus raksasa berleher panjang dengan tubuh besar, kaki yang kuat, dan ekor yang panjang. Biasanya memiliki gigi yang rata untuk mengunyah tanaman.</item>
+        <item>Dikenal dengan punggung berderetkan piring-piring tulang yang digunakan untuk pertahanan dan regulasi suhu tubuh. Tubuhnya relatif kecil dibandingkan dengan sauropoda.</item>
+        <item>Dinosaurus bertubuh besar dengan paruh seperti bebek untuk mengunyah tanaman. Biasanya membentuk kawanan dan memiliki kemampuan bergerak yang baik</item>
+        <item> Dinosaurus dengan tanduk dan lempengan pada kepala yang digunakan untuk pertahanan dan mungkin juga sebagai alat komunikasi. Tubuhnya cenderung besar dengan kaki yang kuat</item>
+        <item>Dinosaurus dengan perlindungan tubuh yang kuat dan berlapis, termasuk tulang atau lempengan yang menonjol untuk melindungi diri dari predator.</item>
+        <item>Dinosaurs berwujud mirip burung dengan kaki panjang untuk berlari cepat. Paruhnya biasanya tidak memiliki gigi dan digunakan untuk mencabut tanaman atau mengambil serangga.</item>
+        <item>Meskipun bukan dinosaurus sejati, mereka adalah reptil terbang dengan sayap membran dan sering memiliki tanduk atau crested pada tengkoraknya</item>
     </string-array>
 
-    <string-array name="fruits_habitat">
-        <item>Aku berasal dari albion city</item>
-        <item>Avokad Asli dari Meksiko dan Amerika Tengah, tumbuh
-di daerah subtropis atau tropis dengan suhu hangat hingga
-panas.</item>
-        <item>Pisang Asli dari Asia Tenggara, tumbuh di daerah
-tropis dengan suhu tinggi, kelembaban, dan curah hujan yang
-cukup.</item>
-        <item>Kelapa Tumbuh di wilayah tropis dan subtropis,
-terutama di daerah pesisir dengan iklim tropis atau
-subtropis.</item>
-        <item>Jambu Biji Asli dari Amerika Tropis, tumbuh di
-daerah tropis dan subtropis dengan iklim yang lembap.</item>
-        <item>Mangga Asli dari Asia Selatan dan Tenggara, tumbuh
-di daerah tropis dan subtropis, dengan suhu hangat hingga
-panas.</item>
-        <item>Melon Asli dari Timur Tengah dan Asia Tenggara,
-tumbuh di berbagai iklim, tetapi biasanya ditanam di musim panas
-dengan suhu yang hangat hingga panas.</item>
-        <item>Jeruk Asli dari Asia Timur, tumbuh di daerah tropis
-dan subtropis dengan iklim yang hangat hingga panas.</item>
-        <item>Nanas Asli dari Amerika Selatan, tumbuh di daerah
-tropis dan subtropis, dengan suhu hangat hingga panas.</item>
-        <item>Stroberi Tumbuh di belahan utara dan selatan dunia,
-di daerah beriklim sedang hingga dingin, di tempat yang
-mendapatkan sinar matahari yang cukup.</item>
+    <string-array name="dinos_habitat">
+        <item>Tersebar di berbagai habitat seperti hutan, padang rumput, dan daerah bersemak, terutama di Amerika Utara, Asia, dan Eropa.</item>
+        <item>Umumnya hidup di daerah dataran rendah, padang rumput, hutan-hutan, dan daerah berair, tersebar di berbagai wilayah di dunia, terutama Amerika Utara, Amerika Selatan, dan Eropa</item>
+        <item>Daerah dataran rendah, hutan-hutan, dan padang rumput, terutama di Amerika Utara dan Eropa pada periode Jurassic hingga Cretaceous.</item>
+        <item>Daerah dataran rendah, padang rumput, hutan-hutan, dan wilayah berair, terutama di Amerika Utara dan Asia pada periode Cretaceous.</item>
+        <item> Daerah dataran rendah, padang rumput, hutan-hutan, dan wilayah berair, terutama di Amerika Utara dan Asia pada periode Cretaceous.</item>
+        <item> Daerah dataran rendah, hutan-hutan, padang rumput, dan wilayah berbatu, tersebar di berbagai wilayah di dunia pada periode Cretaceous.</item>
+        <item> Padang rumput, daerah bersemak, dan hutan terbuka, tersebar di Amerika Utara, Asia, dan Eropa pada periode Cretaceous.</item>
+        <item>Umumnya hidup di daerah pantai, wilayah berair, dan hutan-hutan dekat dengan air, tersebar di berbagai wilayah di dunia pada periode Mesozoikum.</item>
     </string-array>
 
+    <string-array name="thero_name">
+        <item>Velociraptor</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>Spinosaurus</item>
+        <item>Ornithropus</item>
+        <item>Compsognatus</item>
+        <item>Carnotaurus</item>
+        <item>Allosaurus</item>
+    </string-array>
 
+    <string-array name="thero_image">
+        <item>@drawable/c1_velo</item>
+        <item>@drawable/c1_trex</item>
+        <item>@drawable/c1_spino</item>
+        <item>@drawable/c1_orni</item>
+        <item>@drawable/c1_comp</item>
+        <item>@drawable/c1_carno</item>
+        <item>@drawable/c1_allo</item>
+    </string-array>
 
+    <string-array name="thero_description">
+        <item>
+            Velociraptor adalah dinosaurus predator berukuran sedang dengan tubuh yang ramping dan kaki panjang.
+            Mereka memiliki ciri khas cakar kuku yang tajam dan kepala yang relatif kecil dengan mata yang besar.
+        </item>
+        <item>
+            T-rex adalah salah satu dinosaurus predator terbesar yang pernah hidup.
+            Mereka memiliki tubuh besar, kepala besar dengan gigi tajam yang cocok untuk merobek daging,
+            dan kaki belakang yang kuat untuk berlari dan mengejar mangsa
+        </item>
+        <item> Spinosaurus adalah dinosaurus predator yang memiliki ciri khas sail atau perahu layar di punggungnya.
+            Mereka memiliki tubuh yang besar dengan kaki kuat dan cakar tajam di tangan dan kaki
+        </item>
+        <item>Ornithomimus adalah dinosaurus berukuran sedang yang memiliki tubuh ramping, kaki panjang,
+            dan kepala kecil dengan paruh mirip burung.
+        </item>
+        <item>Compsognathus adalah dinosaurus kecil dengan tubuh yang ramping dan kaki panjang. Mereka adalah dinosaurus
+            predator berukuran kecil yang hidup pada masa Jurassic hingga Cretaceous
+        </item>
+        <item>Carnotaurus adalah dinosaurus predator berukuran sedang dengan tubuh yang ramping, kepala yang besar dengan
+            gigi tajam, dan cakar yang kuat di tangan
+        </item>
+        <item>Allosaurus adalah dinosaurus predator besar yang hidup pada periode Jurassic. Mereka memiliki tubuh yang kuat,
+            kepala besar dengan gigi tajam, dan lengan depan yang lebih panjang daripada T-rex.
+        </item>
+    </string-array>
+
+    <string-array name="thero_characteristic">
+        <item>
+            Velociraptor dikenal karena kecerdasan mereka dalam berburu dan kerja sama dalam kelompok. Mereka juga memiliki
+            kemampuan berlari yang cepat dan fleksibilitas tinggi dalam mencari makanan.
+        </item>
+        <item>
+            Ciri khas T-rex termasuk rahang yang sangat kuat, gigi yang tajam, dan lengan depan yang pendek dengan cakar yang
+            kuat. Mereka juga memiliki postur yang tegak dengan ekor yang panjang untuk menjaga keseimbangan saat berlari.
+        </item>
+        <item>
+            Spinosaurus adalah dinosaurus semi-aquatic yang sering ditemukan dekat air. Mereka memanfaatkan kemampuan berenang
+            dan mungkin memburu ikan serta hewan-hewan air lainnya, selain juga menjadi predator darat yang tangguh.
+        </item>
+        <item>
+            Ornithomimus adalah dinosaurus herbivora yang berlari dengan cepat dan mungkin menggunakan kecepatan mereka untuk
+            menghindari predator. Mereka memiliki cakar yang kecil dan tidak tajam, menunjukkan bahwa mereka tidak digunakan untuk berburu.
+        </item>
+        <item>
+            Compsognathus memiliki ciri khas rahang yang lebar dengan gigi kecil, cocok untuk memangsa mangsa kecil seperti
+            serangga, kadal kecil, dan hewan-hewan kecil lainnya. Mereka juga mungkin hidup dalam kelompok kecil.
+        </item>
+        <item>
+            Ciri khas Carnotaurus adalah tanduk kecil di atas mata mereka dan lengan depan yang sangat pendek bahkan untuk ukuran dinosaurus
+            predator. Mereka kemungkinan mengandalkan kecepatan dan kekuatan gigitan mereka dalam berburu.
+        </item>
+        <item>
+            Allosaurus adalah pemburu yang cakap dan seringkali memanfaatkan ukuran tubuhnya untuk menyerang mangsa yang
+            lebih kecil. Mereka juga mungkin berburu dalam kelompok kecil untuk meningkatkan keberhasilan dalam mencari makanan.
+        </item>
+    </string-array>
+
+    <string-array name="thero_habitat">
+        <item>
+            Velociraptor hidup di daerah yang sebagian besar merupakan padang rumput atau hutan terbuka pada periode Cretaceous di
+            wilayah Asia Tengah dan Mongolia. Habitatnya mungkin mencakup dataran rendah, tepi sungai, dan daerah bersemak.
+        </item>
+        <item>
+            T-rex hidup di wilayah yang sebagian besar merupakan dataran atau hutan dataran rendah yang luas di Amerika Utara
+            pada periode Cretaceous. Habitatnya mencakup padang rumput, hutan rawa, dan daerah dengan keanekaragaman hayati yang tinggi.
+        </item>
+        <item>
+            Spinosaurus adalah dinosaurus semi-aquatic yang hidup di daerah yang terkait dengan air seperti sungai, danau, dan
+            rawa-rawa pada periode Cretaceous di wilayah Afrika dan bagian lain dari Gondwana.
+        </item>
+        <item>
+            Ornithomimus hidup di daerah yang sebagian besar datar dan luas, termasuk padang rumput dan dataran rendah, pada periode
+            Cretaceous di Amerika Utara dan Asia. Habitatnya mungkin mencakup daerah dengan vegetasi yang cukup untuk menyediakan makanan.
+        </item>
+        <item>
+            Compsognathus hidup di daerah yang sebagian besar datar atau berbukit-bukit pada periode Jurassic hingga Cretaceous di wilayah
+            Eropa, khususnya di Jerman dan Prancis. Habitatnya mungkin mencakup hutan-hutan terbuka dan padang rumput.
+        </item>
+        <item>
+            Carnotaurus hidup di daerah dataran rendah yang luas, termasuk padang rumput dan hutan terbuka pada periode Cretaceous di
+            Amerika Selatan, khususnya di wilayah yang sekarang menjadi Argentina. Habitatnya mungkin mencakup daerah-daerah dengan sumber air yang cukup dan vegetasi yang memadai.
+        </item>
+        <item>
+            Allosaurus hidup di wilayah daratan yang luas pada periode Jurassic, terutama di Amerika Utara dan Eropa. Habitatnya mencakup dataran tinggi, hutan-hutan berbatu,
+            dan daerah dengan sumber air yang cukup.
+        </item>
+    </string-array>
+
+    <string-array name="thero_kelompok">
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+    </string-array>
+
+    <string-array name="thero_makanan">
+        <item>
+         Hewan kecil hingga sedang, reptil, dan serangga
+        </item>
+        <item>
+        Dinosaurus dan hewan herbivora besar lainnya.
+        </item>
+        <item>
+        Ikan, hewan air, dan mungkin juga hewan darat.
+        </item>
+        <item>
+        Tumbuhan, biji-bijian, buah-buahan, dan serangga.
+        </item>
+        <item>
+        Hewan kecil hingga sedang, reptil, dan serangga.        </item>
+        <item>
+        Dinosaurus herbivora dan hewan lainnya
+        </item>
+        <item>
+        Dinosaurus herbivora dan hewan lainnya
+        </item>
+    </string-array>
+
+    <string-array name="thero_panjang">
+        <item>
+        1,8 meter
+        </item>
+        <item>
+        14 meter
+        </item>
+        <item>
+        15 meter
+        </item>
+        <item>
+         3,5 meter
+        </item>
+        <item>
+        1,8 meter
+        </item>
+        <item>
+        12 meter
+        </item>
+        <item>
+        15 meter
+        </item>
+    </string-array>
+
+    <string-array name="thero_tinggi">
+        <item>
+         0,9 meter
+        </item>
+        <item>
+         6 meter
+        </item>
+        <item>
+         5,5 meter
+        </item>
+        <item>
+         2,5 meter
+        </item>
+        <item>
+         0,5 meter
+        </item>
+        <item>
+         4 meter
+        </item>
+        <item>
+         3,7 meter
+        </item>
+    </string-array>
+
+    <string-array name="thero_bobot">
+        <item>
+        20 kg
+        </item>
+        <item>
+         7 ton
+        </item>
+        <item>
+        9 ton
+        </item>
+        <item>
+        200 kg
+        </item>
+        <item>
+        20 kg
+        </item>
+        <item>
+        3 ton
+        </item>
+        <item>
+        5 ton
+        </item>
+    </string-array>
+
+    <string-array name="thero_kelemahan">
+        <item>
+        Ukuran tubuh yang kecil membuat
+            mereka rentan terhadap predator yang lebih besar
+        </item>
+        <item>
+        Lengan depan yang pendek mungkin membatasi kemampuan meraih mangsa kecil.   </item>
+        <item>
+        Mungkin kurang efisien dalam berburu di darat dibandingkan dengan air.  </item>
+        <item>
+        Kaki panjang untuk berlari, paruh tanpa gigi, kemungkinan hidup dalam kelompok. </item>
+        <item>
+        Ukuran tubuh yang kecil membuat mereka rentan terhadap predator yang lebih besar.  </item>
+        <item>
+       Rentan terhadap serangan dalam jumlah besar dari predator sejenis.  </item>
+        <item>
+       Rentan terhadap serangan dalam jumlah besar dari predator sejenis.  </item>
+    </string-array>
+    <!-- Sauropoda -->
+
+    <string-array name="sauro_name">
+        <item>Brachiosaurus</item>
+        <item>Argentinosaurus</item>
+    </string-array>
+
+    <string-array name="sauro_image">
+        <item>@drawable/brach</item>
+        <item>@drawable/argen</item>
+    </string-array>
+
+    <string-array name="sauro_description">
+    <item>
+        Brachiosaurus adalah dinosaurus berleher panjang dengan tubuh besar dan ekor yang panjang pula. Mereka memiliki kaki belakang yang lebih panjang daripada kaki depan, sehingga punggungnya condong ke atas </item>
+        <item>
+       Argentinosaurus adalah dinosaurus sauropoda raksasa dengan tubuh yang sangat besar dan ekor yang panjang. Mereka dikenal sebagai salah satu dinosaurus terbesar yang pernah hidup.  </item>
+    </string-array>
+
+    <string-array name="sauro_characteristic">
+    <item>
+        Leher yang panjang, ekor yang panjang, tubuh besar, kaki panjang.  </item>
+        <item>
+       Tubuh sangat besar, ekor panjang, leher panjang, kaki yang kuat. </item>
+    </string-array>
+
+    <string-array name="sauro_habitat">
+    <item>
+        Dataran tinggi, hutan-hutan, wilayah Amerika Utara pada periode Jurassic. </item>
+        <item>
+        Dataran tinggi, hutan-hutan, wilayah Amerika Selatan pada periode Cretaceous  </item>
+    </string-array>
+
+    <string-array name="sauro_kelompok">
+        <item>
+        Sauropoda
+        </item>
+        <item>
+        Sauropoda
+        </item>
+    </string-array>
+
+    <string-array name="sauro_makanan">
+        <item>
+        Tumbuhan tinggi seperti pohon-pohon dan tanaman berkayu
+        </item>
+        <item>
+        Tumbuhan tinggi dan beragam seperti pohon-pohon besar dan tanaman berkayu.  </item>
+    </string-array>
+
+    <string-array name="sauro_panjang">
+        <item>
+         26 meter
+        </item>
+        <item>
+         35 meter
+        </item>
+    </string-array>
+
+    <string-array name="sauro_tinggi">
+        <item>
+        12 meter
+        </item>
+        <item>
+        15 meter
+        </item>
+    </string-array>
+
+    <string-array name="sauro_bobot">
+        <item>
+        100 ton
+        </item>
+        <item>
+        60 ton
+        </item>
+    </string-array>
+
+    <string-array name="sauro_kelemahan">
+        <item>
+         Rentan terhadap predator besar seperti dinosaurus predator dan kemungkinan kesulitan dalam mencari makanan di daerah yang kering atau terbatas vegetasinya.
+        </item>
+        <item>
+         Ukuran tubuh yang besar membuat mereka lambat dalam bergerak dan rentan terhadap predator-predator besar yang membutuhkan sedikit usaha untuk menyerangnya. </item>
+    </string-array>
+
+    <!-- Stegosauridae -->
+
+    <string-array name="stego_name">
+        <item>Stegosaurus</item> <item>Tyrannosaurus Rex</item>
+    </string-array>
+
+    <string-array name="stego_image">
+        <item>@drawable/stegos</item>
+    </string-array>
+
+    <string-array name="stego_description">
+    <item>
+       Stegosaurus adalah dinosaurus herbivora berukuran besar yang hidup pada periode Jurassic. Mereka dikenal karena piring-piring tulang yang menonjol di punggungnya yang digunakan untuk mempertahankan diri dan regulasi suhu tubuh. Stegosaurus memiliki tubuh besar dengan kaki pendek, ekor yang bercabang, dan otak yang relatif kecil.  </item>
+    </string-array>
+
+    <string-array name="stego_characteristic">
+    <item>
+         Piring-piring tulang di punggung, ekor bercabang, cakar yang kuat, kepala kecil, gigi pipih untuk mengunyah tumbuhan.  </item>
+    </string-array>
+
+    <string-array name="stego_habitat">
+    <item>
+        Daerah dataran rendah, padang rumput, hutan-hutan, Amerika Utara pada periode Jurassic.</item>
+    </string-array>
+
+    <string-array name="stego_kelompok">
+        <item>
+        Stegosauridae
+        </item>
+    </string-array>
+
+    <string-array name="stego_makanan">
+        <item>
+        Dedalunan, tunas pohon, tanaman berkayu
+        </item>
+    </string-array>
+
+    <string-array name="stego_panjang">
+        <item>
+        12 meter
+        </item>
+    </string-array>
+
+    <string-array name="stego_tinggi">
+        <item>
+         5 meter
+        </item>
+    </string-array>
+
+    <string-array name="stego_bobot">
+        <item>
+        5 ton
+        </item>
+    </string-array>
+
+    <string-array name="stego_kelemahan">
+        <item>
+         Otak yang kecil membuat mereka kurang responsif terhadap bahaya dan mungkin tidak begitu lincah dalam menghindari predator. Tidak memiliki perlindungan fisik yang kuat selain piring-piring tulang di punggungnya
+        </item>
+    </string-array>
+
+    <!-- Hadrosauridae -->
+
+    <string-array name="hadro_name">
+        <item>Parasaurolophus</item>
+        <item>Edmontosaurus</item>
+    </string-array>
+
+    <string-array name="hadro_image">
+        <item>@drawable/para</item>
+        <item>@drawable/edmon</item>
+    </string-array>
+
+    <string-array name="hadro_description">
+    <item>
+        Parasaurolophus adalah dinosaurus herbivora berukuran sedang hingga besar yang memiliki crested atau runcing pada tengkoraknya yang berfungsi sebagai saluran suara. Mereka memiliki tubuh yang ramping dengan kaki yang kuat untuk bergerak di darat dan makanan tumbuhan.  </item>
+        <item>
+        Edmontosaurus adalah dinosaurus herbivora berukuran besar yang memiliki leher panjang dan paruh seperti bebek untuk mengunyah tumbuhan. Mereka adalah dinosaurus bertubuh besar yang sering membentuk kawanan saat mencari makanan.    </item>
+    </string-array>
+
+    <string-array name="hadro_characteristic">
+    <item>
+       Crested pada tengkorak, tubuh ramping, kaki kuat, ekor panjang. </item>
+        <item>
+        Leher panjang, paruh seperti bebek, tubuh besar, kaki kuat.  </item>
+    </string-array>
+
+    <string-array name="hadro_habitat">
+    <item>
+       Daerah dataran rendah, padang rumput, hutan-hutan, Amerika Utara pada periode Cretaceous. </item>
+        <item>
+       Daerah dataran rendah, padang rumput, hutan-hutan, Amerika Utara pada periode Cretaceous.    </item>
+    </string-array>
+
+    <string-array name="hadro_kelompok">
+        <item>
+        Hadrosauridae
+        </item>
+        <item>
+        Hadrosauridae
+        </item>
+    </string-array>
+
+    <string-array name="hadro_makanan">
+        <item>
+Dedalunan, tunas pohon, tanaman berkayu.
+        </item>
+        <item>
+Dedalunan, tunas pohon, tanaman berkayu.
+        </item>
+    </string-array>
+
+    <string-array name="hadro_panjang">
+        <item>
+        11 meter
+        </item>
+        <item>
+        13 meter
+        </item>
+    </string-array>
+
+    <string-array name="hadro_tinggi">
+        <item>
+        5 meter
+        </item>
+        <item>
+        10 meter
+        </item>
+    </string-array>
+
+    <string-array name="hadro_bobot">
+        <item>
+        3 ton
+        </item>
+        <item>
+        6 ton
+        </item>
+    </string-array>
+
+    <string-array name="hadro_kelemahan">
+        <item>
+Mungkin rentan terhadap predator besar dan kemungkinan masalah saat berkomunikasi dengan sesamanya jika crest pada tengkoraknya rusak.
+        </item>
+        <item>
+Rentan terhadap predator besar dan mungkin kesulitan dalam bergerak cepat karena tubuh yang besar. </item>
+    </string-array>
+
+    <!-- Ceratopsidae -->
+
+    <string-array name="cera_name">
+        <item>Triceratops</item>
+    </string-array>
+
+    <string-array name="cera_image">
+        <item>@drawable/trice</item>
+    </string-array>
+
+    <string-array name="cera_description">
+    <item>
+       Triceratops adalah dinosaurus herbivora berukuran besar yang memiliki tanduk di atas hidung dan dua tanduk di atas mata. Mereka juga memiliki lempeng tulang yang melindungi leher dan tubuh bagian atas.   </item>
+
+    </string-array>
+
+    <string-array name="cera_characteristic">
+    <item>
+    Tanduk di hidung dan mata, lempeng tulang di punggung, tubuh besar, kaki kuat.  </item>
+
+    </string-array>
+
+    <string-array name="cera_habitat">
+    <item>
+     Daerah dataran rendah, padang rumput, hutan-hutan, Amerika Utara pada periode Cretaceous. </item>
+
+    </string-array>
+
+    <string-array name="cera_kelompok">
+        <item>
+        Ceratopsidae
+        </item>
+    </string-array>
+
+    <string-array name="cera_makanan">
+        <item>
+        Dedalunan, tunas pohon, tanaman berkayu.
+        </item>
+    </string-array>
+
+    <string-array name="cera_panjang">
+        <item>
+        9 meter
+        </item>
+    </string-array>
+
+    <string-array name="cera_tinggi">
+        <item>
+3,5 meter        </item>
+    </string-array>
+
+    <string-array name="cera_bobot">
+        <item>
+        12 ton
+        </item>
+    </string-array>
+
+    <string-array name="cera_kelemahan">
+        <item>
+        Rentan terhadap predator besar dan kemungkinan masalah saat bergerak cepat karena tubuh yang besar.
+        </item>
+    </string-array>
+
+    <!--Ankylosauridae-->
+
+    <string-array name="anky_name">
+        <item>Velociraptor</item>
+        <item>Tyrannosaurus Rex</item>
+    </string-array>
+
+    <string-array name="anky_image">
+        <item>@drawable/c1_velo</item>
+        <item>@drawable/c1_trex</item>
+    </string-array>
+
+    <string-array name="anky_description">
+    <item>
+        Velociraptor adalah dinosaurus predator berukuran sedang dengan tubuh yang ramping dan kaki panjang.
+        Mereka memiliki ciri khas cakar kuku yang tajam dan kepala yang relatif kecil dengan mata yang besar.
+    </item>
+        <item>
+        T-rex adalah salah satu dinosaurus predator terbesar yang pernah hidup.
+        Mereka memiliki tubuh besar, kepala besar dengan gigi tajam yang cocok untuk merobek daging,
+        dan kaki belakang yang kuat untuk berlari dan mengejar mangsa
+    </item>
+    </string-array>
+
+    <string-array name="anky_characteristic">
+    <item>
+        Velociraptor dikenal karena kecerdasan mereka dalam berburu dan kerja sama dalam kelompok. Mereka juga memiliki
+        kemampuan berlari yang cepat dan fleksibilitas tinggi dalam mencari makanan.
+    </item>
+        <item>
+        Ciri khas T-rex termasuk rahang yang sangat kuat, gigi yang tajam, dan lengan depan yang pendek dengan cakar yang
+        kuat. Mereka juga memiliki postur yang tegak dengan ekor yang panjang untuk menjaga keseimbangan saat berlari.
+    </item>
+    </string-array>
+
+    <string-array name="anky_habitat">
+    <item>
+        Velociraptor hidup di daerah yang sebagian besar merupakan padang rumput atau hutan terbuka pada periode Cretaceous di
+        wilayah Asia Tengah dan Mongolia. Habitatnya mungkin mencakup dataran rendah, tepi sungai, dan daerah bersemak.
+    </item>
+        <item>
+        T-rex hidup di wilayah yang sebagian besar merupakan dataran atau hutan dataran rendah yang luas di Amerika Utara
+        pada periode Cretaceous. Habitatnya mencakup padang rumput, hutan rawa, dan daerah dengan keanekaragaman hayati yang tinggi.
+    </item>
+    </string-array>
+
+    <string-array name="anky_kelompok">
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+    </string-array>
+
+    <string-array name="anky_makanan">
+       <item>
+         Hewan kecil hingga sedang, reptil, dan serangga
+        </item>
+        <item>
+        Dinosaurus dan hewan herbivora besar lainnya.
+        </item>
+    </string-array>
+
+    <string-array name="anky_panjang">
+        <item>
+        1,8 meter
+        </item>
+        <item>
+        14 meter
+        </item>
+    </string-array>
+
+    <string-array name="anky_tinggi">
+        <item>
+         0,9 meter
+        </item>
+        <item>
+         6 meter
+        </item>
+    </string-array>
+
+    <string-array name="anky_bobot">
+       <item>
+        20 kg
+        </item>
+        <item>
+         7 ton
+        </item>
+    </string-array>
+
+    <string-array name="anky_kelemahan">
+         <item>
+        Ukuran tubuh yang kecil membuat
+            mereka rentan terhadap predator yang lebih besar
+        </item>
+        <item>
+        Lengan depan yang pendek mungkin membatasi kemampuan meraih mangsa kecil.   </item>
+    </string-array>
+
+    <!-- Ornithomimidae-->
+    <string-array name="orni_name">
+        <item>Velociraptor</item>
+        <item>Tyrannosaurus Rex</item>
+    </string-array>
+
+    <string-array name="orni_image">
+        <item>@drawable/c1_velo</item>
+        <item>@drawable/c1_trex</item>
+    </string-array>
+
+    <string-array name="orni_description">
+    <item>
+        Velociraptor adalah dinosaurus predator berukuran sedang dengan tubuh yang ramping dan kaki panjang.
+        Mereka memiliki ciri khas cakar kuku yang tajam dan kepala yang relatif kecil dengan mata yang besar.
+    </item>
+        <item>
+        T-rex adalah salah satu dinosaurus predator terbesar yang pernah hidup.
+        Mereka memiliki tubuh besar, kepala besar dengan gigi tajam yang cocok untuk merobek daging,
+        dan kaki belakang yang kuat untuk berlari dan mengejar mangsa
+    </item>
+    </string-array>
+
+    <string-array name="orni_characteristic">
+    <item>
+        Velociraptor dikenal karena kecerdasan mereka dalam berburu dan kerja sama dalam kelompok. Mereka juga memiliki
+        kemampuan berlari yang cepat dan fleksibilitas tinggi dalam mencari makanan.
+    </item>
+        <item>
+        Ciri khas T-rex termasuk rahang yang sangat kuat, gigi yang tajam, dan lengan depan yang pendek dengan cakar yang
+        kuat. Mereka juga memiliki postur yang tegak dengan ekor yang panjang untuk menjaga keseimbangan saat berlari.
+    </item>
+    </string-array>
+
+    <string-array name="orni_habitat">
+    <item>
+        Velociraptor hidup di daerah yang sebagian besar merupakan padang rumput atau hutan terbuka pada periode Cretaceous di
+        wilayah Asia Tengah dan Mongolia. Habitatnya mungkin mencakup dataran rendah, tepi sungai, dan daerah bersemak.
+    </item>
+        <item>
+        T-rex hidup di wilayah yang sebagian besar merupakan dataran atau hutan dataran rendah yang luas di Amerika Utara
+        pada periode Cretaceous. Habitatnya mencakup padang rumput, hutan rawa, dan daerah dengan keanekaragaman hayati yang tinggi.
+    </item>
+    </string-array>
+
+    <string-array name="orni_kelompok">
+       <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+        <item>
+        Theropoda (Grup Coelurosauria)
+        </item>
+    </string-array>
+
+    <string-array name="orni_makanan">
+      <item>
+         Hewan kecil hingga sedang, reptil, dan serangga
+        </item>
+        <item>
+        Dinosaurus dan hewan herbivora besar lainnya.
+        </item>
+    </string-array>
+
+    <string-array name="orni_panjang">
+       <item>
+        1,8 meter
+        </item>
+        <item>
+        14 meter
+        </item>
+    </string-array>
+
+    <string-array name="orni_tinggi">
+        <item>
+         0,9 meter
+        </item>
+        <item>
+         6 meter
+        </item>
+    </string-array>
+
+    <string-array name="orni_bobot">
+        <item>
+        20 kg
+        </item>
+        <item>
+         7 ton
+        </item>
+    </string-array>
+
+    <string-array name="orni_kelemahan">
+        <item>
+        Ukuran tubuh yang kecil membuat
+            mereka rentan terhadap predator yang lebih besar
+        </item>
+        <item>
+        Lengan depan yang pendek mungkin membatasi kemampuan meraih mangsa kecil.   </item>
+    </string-array>
+
+    <!-- Pterosauria-->
+
+    <string-array name="ptero_name">
+        <item>Pteranodon</item>
+        <item>Quetzalcoatlus</item>
+    </string-array>
+
+    <string-array name="ptero_image">
+        <item>@drawable/ptera</item>
+        <item>@drawable/quet</item>
+    </string-array>
+
+    <string-array name="ptero_description">
+    <item>
+       Pteranodon adalah pterosauria yang memiliki sayap besar dan tanduk panjang yang melengkung ke belakang dari tengkoraknya. Mereka adalah reptil terbang besar yang hidup di wilayah Amerika Utara pada periode Kapur.    </item>
+        <item>
+       Quetzalcoatlus adalah pterosauria raksasa yang memiliki sayap yang sangat besar dan leher yang panjang. Mereka merupakan salah satu hewan terbang terbesar yang pernah ada dan hidup di wilayah Amerika Utara pada periode Kapur.   </item>
+    </string-array>
+
+    <string-array name="ptero_characteristic">
+    <item>
+       Sayap besar, tanduk panjang, tubuh ringan, dan kemampuan terbang yang baik    </item>
+        <item>
+       Sayap super besar, leher panjang, tubuh besar, dan kemampuan terbang yang luar biasa.    </item>
+    </string-array>
+
+    <string-array name="ptero_habitat">
+    <item>
+       Daerah pesisir, dataran rendah, dan wilayah berair pada periode Kapur.   </item>
+        <item>
+       Pantai, daerah berair, dan wilayah pesisir pada periode Kapur.   </item>
+    </string-array>
+    <string-array name="ptero_kelompok">
+       <item>
+         Pterosauria
+        </item>
+        <item>
+         Pterosauria
+        </item>
+    </string-array>
+
+    <string-array name="ptero_makanan">
+        <item>
+          Ikan dan hewan kecil lainnya yang ditemukan di air.
+        </item>
+        <item>
+         Diperkirakan memakan ikan, hewan kecil, dan mungkin juga tumbuhan.
+        </item>
+    </string-array>
+
+    <string-array name="ptero_panjang">
+        <item>
+ 10 meter
+        </item>
+        <item>
+ 12 meter
+        </item>
+    </string-array>
+
+    <string-array name="ptero_tinggi">
+        <item>
+        1,5 meter
+        </item>
+        <item>
+       3 meter
+        </item>
+    </string-array>
+
+    <string-array name="ptero_bobot">
+        <item>
+        40 kg
+        </item>
+        <item>
+        250 kg
+        </item>
+    </string-array>
+
+    <string-array name="ptero_kelemahan">
+        <item>
+         Rentan terhadap predator udara dan mungkin kesulitan dalam mendarat dengan tanduk yang panjang.
+        </item>
+        <item>
+        Rentan terhadap predator udara lainnya dan mungkin kesulitan dalam manuver akrobatik karena ukuran yang besar.  </item>
+    </string-array>
 </resources>
